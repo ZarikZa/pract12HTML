@@ -1,0 +1,141 @@
+html {
+  background-color: #ed335f
+;
+}
+
+header {
+  background-color:  #ed335f;
+}
+
+.input-search {
+  background-color: #761137;
+  border: 0;
+  border-radius: 500px;
+  color: #fff !important;
+  height: 48px;
+  padding: 6px 36px;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.btn-sign {
+  font-weight: 700;
+  font-family: Calibri;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  color: #6a6a6a;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin-right: 25px;
+}
+
+.btn-sign:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+}
+
+.btn-log {
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Calibri;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+  padding-block-start: 8px;
+  padding-block-end: 8px;
+  padding-inline-start: 27px;
+  padding-inline-end: 27px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-log:hover {
+  transform: scale(1.1);
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color:  #ed335f;
+  gap: 20px;
+  justify-content: center;
+  padding: 100px;
+}
+
+.song-card {
+  background-color: #f9858b;
+  border-radius: 230px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  width: 220px;
+}
+
+.song-card img {
+  border-radius:  230px;;
+  width: 100%;
+  height: auto;
+}
+
+.song-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0 10px;
+  text-align: center;
+}
+
+.song-card p {
+  font-size: 0.9em;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.song-card audio {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.p1 {
+  color: #242424;
+  grid-column: 3;
+  text-align: center;
+  font-size: 25px;
+}
+
+.song-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.song-link:hover {
+  text-decoration: underline;
+}
+
+.btn-search{
+  margin: 0px 10px 10px 10px;
+  width: 200px;
+  background-color: #f9858b;
+  border: 0;
+  border-radius: 500px;
+  color: #fff !important;
+  height: 48px;
+  padding: 6px 36px;
+  text-overflow: ellipsis;
+}
+
+.btn-search:active {
+  background: #761137;
+}
